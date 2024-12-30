@@ -68,7 +68,7 @@ small: 4px
   --def-fs: 62.5%;
   --ff: 'Segoe UI', sans-serif;
   --color-primary: #343a40;
-  --color-primary-darker: #302b2b;
+  --color-primary-darker: #c51111;
   --color-primary-lighter: #d7bbbb;
 
   /* -------- DEFAULT KEYBOARD THEME | RETRO -------- */
@@ -93,20 +93,20 @@ small: 4px
   --box-shadow-keycaps-pressed-hover: var(--box-shadow-keycaps-hover-value)
     var(--color-keycaps-shadow-pressed);
 
-  --color-keyboard: #000000;
-  --color-keyboard-border: #0fdfee;
+  --color-keyboard: #eeeded00;
+  --color-keyboard-border: #fdfbfb2a;
 
-  --color-keycaps-legends: #e9e2e2;
-  --color-keycaps-bg: #072442;
+  --color-keycaps-legends: #070606;
+  --color-keycaps-bg: #e3e6e9;
   --color-keycaps-shadow: #adb5bd;
 
-  --color-keycaps-legends-accent: #100e0e;
-  --color-keycaps-bg-accent: #26a8aa;
-  --color-keycaps-shadow-accent: #97a0a8;
+  --color-keycaps-legends-accent: #000000;
+  --color-keycaps-bg-accent: #f3f3f361;
+  --color-keycaps-shadow-accent: #cacacb70;
 
   --color-keycaps-legends-pressed: #2f3674;
-  --color-keycaps-bg-pressed: #0deb27;
-  --color-keycaps-shadow-pressed: #ffffff;
+  --color-keycaps-bg-pressed: #e3e6e9;
+  --color-keycaps-shadow-pressed: #11ec74;
 
   /* styling background of elements */
 
@@ -118,10 +118,10 @@ small: 4px
     #7888e3,
     #c1c3d5
   ); */
-  --color-bg: black;
+  /* --color-bg: rgb(255, 0, 0); */
   
 
-  --color-bg-title: linear-gradient(
+  /* --color-bg-title: linear-gradient(
     45deg,
     #14181c,
     #b09d0c,
@@ -129,8 +129,8 @@ small: 4px
     #506070,
     #2e3235,
     #506070,
-    #14181c
-  );
+    #959ba0
+  ); */
 
   --color-bg-toggle: linear-gradient(45deg, #4dabf7, #228be6, #1c70c0, #3c56da);
 }
